@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(29, 29, 38);
+    background: linear-gradient(to right ,#15151d, #303040);
 }
 
-h1{
+h1 {
     text-shadow: 2px 2px 5px black;
     color: rgb(230, 230, 241);
     font-size: 45px;
@@ -11,19 +11,31 @@ h1{
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
 }
-h1:hover{
+h1:hover {
     color: rgb(202, 202, 213);
     font-size: 50px;
 }
-h2{}
-h3{}
+h2 {
+
+}
+h3 {
+
+}
 p{
     text-shadow: 1px 1px 2.5px black;
     color: rgb(230, 230, 241);
     font-size: 15px;
     font-family: 'Gill Sans', Arial, sans-serif;
 }
-a{}
+a {
+    text-shadow: 1px 1px 2.5px black;
+    color: rgb(172, 172, 224);
+    font-size: 25px;
+    font-family: 'Gill Sans', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 .namediv {
     display: flex;
 }
@@ -31,4 +43,31 @@ a{}
     size: auto;
     margin-top: 75px;
     margin-left: 100px; 
+}
+.projectdiv {
+    display: flex;
+}
+.projectsubdiv {
+    height: auto;
+    width: 1080px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.projectsubsubdiv {
+    size: auto; 
+    background: linear-gradient(#1b1b24, #2e2e3e);
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3.5px;
+    border-color: rgb(230, 230, 241);
+    box-shadow: 1px 1px 2.5px black;
+    padding-bottom: 15px;
+}
+.headerp {
+    text-shadow: 1px 1px 2.5px black;
+    color: rgb(230, 230, 241);
+    font-size: 25px;
+    font-family: 'Gill Sans', Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
 }

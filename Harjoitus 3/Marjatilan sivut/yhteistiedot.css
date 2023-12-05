@@ -1,0 +1,76 @@
+.navigointi {
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap-reverse;
+    
+}
+.logo {
+    margin-top: 11%;
+    margin-right: 12.5%;
+    height: auto;
+    width:auto;
+    border-style: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+.nappi {
+    margin: 10px;
+    height: 72px;
+    width: auto;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2.5px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(45, 155, 111);
+    
+}
+
+.nappi:hover {
+    border-color: black;
+    background-color: rgb(40, 139, 100);
+    transition:linear 0.25s;
+}
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 5px 10px #000000;
+}
+p {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 5px 10px #000000;
+
+}
+
+body {
+    background-image: url(marjafarmi.jpg);
+    background-repeat: repeat, no-repeat;
+    background-size: cover;
+}
+
+.tieto {
+    height: auto;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap-reverse;
+}
+.tietoteksti {
+    margin: 2px;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2.5px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(45, 155, 111);
+}
