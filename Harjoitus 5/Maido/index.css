@@ -1,0 +1,121 @@
+/* Style the header */
+.header {
+    padding: 10px 10px;
+    background: rgb(40, 40, 40);
+    color: #158d5b;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+    font-family:'Courier New', Courier, monospace;
+    z-index: 1;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  body {
+    background-color:rgb(31, 25, 48);
+  }
+button {
+
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #158d5b;
+    border: none;
+    color: white;
+    float: right;
+
+}  
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:20px 200px ;
+}
+.search {
+    height: 16px;
+    width: 16px;
+    
+}
+nav {
+    float: right;
+    padding: 0px 250px;
+}
+/* unvisited link */
+a:link {
+    padding: 10px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    padding: 10px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+/* The animation code */
+@keyframes pallo {
+  0% {transform:translateY(0px);}
+  100% {transform:translateY(-10px);}
+}
+
+/* mouse over link */
+a:hover {
+    padding: 10px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  animation-name: pallo;
+  animation-duration: 0.4s;
+  animation-fill-mode:forwards;
+}
+
+/* selected link */
+a:active {
+    padding: 10px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.flex-container {
+  display: block;
+
+}
+.subflex {
+  padding-left: 300px;
+  padding-top: 50px;
+  width: 50%;
+  height: 100%; 
+  flex: 1;
+}
+
+.kissa:hover {
+  transform: translateY(-10px);
+}
+.kissa {
+  transition: transform 0.5s ease;
+  height: auto;
+  width: 125%;
+  border-radius: 25px;
+}/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: -375px;
+  left: 375px;
+}
