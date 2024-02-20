@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elias Mäkelän portfolio</title>
+    <title>Document</title>
 </head>
 <body>
     <div class="namediv">
@@ -31,28 +30,9 @@
                 Unity Shadergraph -osaaminen <br>
                 <br>
                 Tavoitteeni on jatkaa oppimista, kehittyä ohjelmistokehittäjänä ja tuoda lisää luovuutta ja innovaatiota jokaiseen projektiin, johon ryhdyn. <br>
-                <div class="instagramkuvake"><a class="kuvalinkki" href="https://www.instagram.com/lenkuri746/"><img src="instagramlogo.png" alt="instagram"></a></div>
+                <div class="instagramkuvake"><a class="kuvalinkki" href="https://www.instagram.com/lenkuri746/"><img src="instagramlogo.png" alt="instagram"><a class="kuvalinkki" href="https://www.tiktok.com/@lenkuri746"><img src="tiktoklogo.png" alt="tiktok"></a></a></div>
             </p>
         </div>
     </div>
-    <div class="projectdiv">
-        <div class="projectsubdiv">
-            <h1>Projektit</h1>
-            <div class="projectsubsubdiv">
-            <p class="headerp">
-            <b> Marjatilan sivusto </b>
-            </p>
-            <a class="normilinkki" href="Harjoitus 3/Marjatilan sivut/index.html">Sivustolle</a>
-            </div class="projectsubsubdiv">
-            <div class="projectsubsubdiv">
-            <p class="headerp">
-            <b> Harjoitus jossa pyrittiin tekemään jäljentämään alkuperäisen sivuston tyylitys  </b>
-            </p>
-            <a class="normilinkki" href="Harjoitus 5/Maido/index.html">Sivustolle</a>
-            </div class="projectsubsubdiv">
-        </div>
-    </div>
-    <footer>
-    </footer>
 </body>
 </html>
