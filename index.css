@@ -95,6 +95,15 @@ h3 {
     margin-top: 15px;
     margin-left: 10px;
 }
+
+.infop {
+    text-shadow: 1px 1px 2.5px black;
+    color: #e6e6f1;
+    font-size: 16px;
+    font-family: 'Gill Sans', Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+}
 .instagramkuvake {
 }
 img {
