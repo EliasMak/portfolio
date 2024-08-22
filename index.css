@@ -65,7 +65,7 @@ h3 {
 .namesubdiv {
     size: auto;
     margin-top: 10px;
-    margin-left: 100px; 
+    margin-left: 2.5%; 
 }
 .projectdiv {
     display: flex;
@@ -74,7 +74,7 @@ h3 {
     height: auto;
     width: 1080px;
     margin-top: 0px;
-    margin-left: 100px;
+    margin-left: 2.5%;
 }
 .projectsubsubdiv {
     size: auto; 
@@ -93,7 +93,7 @@ h3 {
     font-size: 25px;
     font-family: 'Gill Sans', Arial, sans-serif;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 2.5%;
 }
 
 .infop {
@@ -102,24 +102,24 @@ h3 {
     font-size: 16px;
     font-family: 'Gill Sans', Arial, sans-serif;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 2.5%;
 }
 .instagramkuvake {
 }
 img {
     padding-right: 10px;
     margin-top: 0px;
-    margin-left: 0px;
-    height: 2%;
-    width: 2%;
+    margin-left: auto;
+    height: 30px;
+    width: auto;
     filter: drop-shadow(1px 1px 45px rgb(178, 178, 229, 0.382), 1px 1px 45px rgba(178, 178, 229, 0.382));
     filter: drop-shadow( 2px 2px 5px black);
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
 }
 img:hover {
-    height: 2.3%;
-    width: 2.3%;
+    height: 35px;
+    width: auto;
     filter: drop-shadow(1px 1px 50px rgb(178, 178, 229, 0.382), 1px 1px 50px rgba(178, 178, 229, 0.382));
 }
 /* ===== Scrollbar CSS ===== */
@@ -163,5 +163,5 @@ a:active {
 .nappi{
     size: auto;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 2.5%;
 }
